@@ -1,0 +1,7 @@
+name: jobs
+description: 'manage offers'
+core: 8.x
+package: Awesome Job
+type: module
+libraries:
+  - jobs/global-css

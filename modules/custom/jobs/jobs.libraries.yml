@@ -1,0 +1,14 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+grid:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap-grid.css: {}
+#  js:
+#    includes/js/bootstrap.js: {}
+#  dependencies:
+#    - core/jquery

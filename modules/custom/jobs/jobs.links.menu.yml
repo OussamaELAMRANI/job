@@ -1,0 +1,14 @@
+job_offer.main:
+  title: 'Job Offers'
+  description: 'main menu of the custom offering Job'
+  #  parent: system.admin_config_development
+  route_name: offers.index
+  weight: 1
+  menu_name: main
+
+#job.apply:
+#  title: 'Apply Job'
+#  description: 'main menu of the custom offering Job'
+#  route_name: apply.form
+#  weight: 1
+#  menu_name: main

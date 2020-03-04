@@ -1,0 +1,7 @@
+offers.index:
+  path: /offers
+  defaults:
+    _controller: \Drupal\jobs\Controller\JobController::index
+  requirements:
+    _permission: 'access content'
+

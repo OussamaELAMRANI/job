@@ -1,0 +1,9 @@
+parameters:
+  offer.job.use_key_value_cache: false
+  offer.job.use_logger: true
+
+services:
+  job_offer.work_trace:
+    class: Drupal\jobs\Service\JobService
+    arguments:
+      ['@logger.factory',%offer.job.use_logger%]

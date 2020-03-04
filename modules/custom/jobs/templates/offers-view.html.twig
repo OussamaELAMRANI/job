@@ -1,0 +1,12 @@
+{{ attach_library('jobs/grid') }}
+{{ attach_library('jobs/global-css') }}
+
+<div class="container">
+  <h2>Job Offers </h2>
+
+  <div class="row">
+    {% for offer in offers %}
+      {% include '@jobs/layouts/offer.html.twig' with offer %}
+    {% endfor %}
+  </div>
+</div>
