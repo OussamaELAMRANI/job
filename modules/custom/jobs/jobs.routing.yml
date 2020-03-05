@@ -14,9 +14,10 @@ offers.show:
 
 
 applies.show:
-  path: /aplies/{len?}
+  path: /applies
   defaults:
     _controller: \Drupal\jobs\Controller\JobController::getApplies
   requirements:
+    _role: 'administrator'
     _permission: 'access content'
 

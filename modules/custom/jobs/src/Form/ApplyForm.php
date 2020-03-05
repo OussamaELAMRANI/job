@@ -103,7 +103,7 @@ class ApplyForm extends FormBase
     $this->messenger()->addMessage('Your apply is added successfully !');
   }
 
-  public function insertFile($file)
+  private function insertFile($file)
   {
     $newFile = Drupal\file\Entity\File::load($file[0]);
     $newFile->setPermanent();

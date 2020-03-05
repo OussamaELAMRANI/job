@@ -75,12 +75,19 @@ class JobService
 
   public function getApplies($length)
   {
-    $db = Drupal::database();
-    $query = $db->select('applies_table', 'n');
-//    $query->addField('n', 'nid');
-//    $query->condition('n.type', 'blablabla');
-    $results = $query->execute()->fetchAll();
+    $query = Drupal::database()->select('applies_table', 'a');
+    $query->addField('a', 'nid');
+    $query->addField('a', 'full_name');
+    $query->addField('a', 'email');
+    $query->addField('a', 'phone');
+    $query->addField('a', 'experiences');
+    $query->addField('a', 'resume');
+    $query->addField('a', 'cv');
+    $query->addField('a', 'title_job');
+    $query->addField('a', 'job_id');
+    $query->orderBy('nid', 'DESC');
 
-    return $results;
+//    $query->condition('n.type', 'blablabla');
+    return $query->execute()->fetchAll(\PDO::FETCH_ASSOC);
   }
 }

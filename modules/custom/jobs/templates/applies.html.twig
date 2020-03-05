@@ -1,7 +1,29 @@
-{% extends 'base.html.twig' %}
+{% extends '@jobs/base.html.twig' %}
 
 {% block inner_content %}
+  <div class="container">
+    <h2>Applies</h2>
 
-  {{ dump(applies) }}
+    <div class="row">
+      <table>
+        <thead>
+        <tr>
+          <th>Title job</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Years of experiences</th>
+          <th>resume</th>
+          <th>Attached Files (CV)</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for apply in applies %}
+          {% include '@jobs/layouts/apply.html.twig' with apply %}
+        {% endfor %}
+        </tbody>
+      </table>
 
+    </div>
+  </div>
 {% endblock %}

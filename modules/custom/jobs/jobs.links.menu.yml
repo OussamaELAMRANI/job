@@ -10,5 +10,5 @@ job.apply:
   title: 'Applies '
   description: 'main menu of the custom offering Job'
   route_name: applies.show
-  weight: 1
+  weight: 2
   menu_name: main
