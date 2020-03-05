@@ -12,3 +12,11 @@ offers.show:
   requirements:
     _permission: 'access content'
 
+
+applies.show:
+  path: /aplies/{len?}
+  defaults:
+    _controller: \Drupal\jobs\Controller\JobController::getApplies
+  requirements:
+    _permission: 'access content'
+

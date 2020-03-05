@@ -54,6 +54,16 @@ class JobController extends ControllerBase
     return $build;
   }
 
+  public function getApplies($length = null)
+  {
+    $applies = $this->jobService->getApplies($length);
+
+    return [
+      '#theme' => 'applies',
+      'applies' => $applies
+    ];
+  }
+
   /**
    * @override
    *

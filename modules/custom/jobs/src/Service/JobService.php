@@ -72,4 +72,15 @@ class JobService
         'body' => $node->get('body')->value,
       ];
   }
+
+  public function getApplies($length)
+  {
+    $db = Drupal::database();
+    $query = $db->select('applies_table', 'n');
+//    $query->addField('n', 'nid');
+//    $query->condition('n.type', 'blablabla');
+    $results = $query->execute()->fetchAll();
+
+    return $results;
+  }
 }

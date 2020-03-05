@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/applies.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.links.menu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.links.menu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Form/SearchForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Form/SearchForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583330037738</updated>
-      <workItem from="1583330039381" duration="28276000" />
+      <workItem from="1583330039381" duration="29219000" />
     </task>
     <servers />
   </component>
