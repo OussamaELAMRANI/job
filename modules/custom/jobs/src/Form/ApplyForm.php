@@ -26,13 +26,21 @@ class ApplyForm extends FormBase
   /**
    * @inheritDoc
    */
-  public function buildForm(array $form, FormStateInterface $form_state)
+  public function buildForm(array $form, FormStateInterface $form_state, array $gated_content_context = NULL)
   {
     // Name
     $form['full_name'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Full name'),
       '#description' => $this->t('Enter your full name'),
+    );
+    $form['title_job'] = array(
+      '#type' => 'hidden',
+      '#value' => $gated_content_context['title'],
+    );
+    $form['job_id'] = array(
+      '#type' => 'hidden',
+      '#value' => $gated_content_context['id'],
     );
     // Email
     $form['email'] = [
@@ -47,7 +55,7 @@ class ApplyForm extends FormBase
       '#description' => $this->t('Enter your phone number, beginning with country code e-g +212 668 238 123'),
     ];
     // Number.
-    $form['experiences_number'] = [
+    $form['experiences'] = [
       '#type' => 'number',
       '#title' => t('Years of professional experience '),
     ];
@@ -57,7 +65,8 @@ class ApplyForm extends FormBase
       '#description' => $this->t('Enter your experiences above'),
     );
     $form['cv'] = array(
-      '#type' => 'file',
+      '#type' => 'managed_file',
+      '#upload_location' => 'public://applies/cv',
       '#title' => $this->t('upload your CV'),
     );
 
@@ -73,45 +82,33 @@ class ApplyForm extends FormBase
 
   /**
    * @inheritDoc
-   * @throws EntityStorageException
+   * @throws \Exception
    */
   public function submitForm(array &$form, FormStateInterface $form_state)
   {
-    $job_title = $form_state->getValue('job_title');
-    $job_desc = $form_state->getValue('job_description');
-    $message = $this->createNode($job_title, $job_desc);
+    $db = Drupal::database()->insert('applies_table');
+    $values = $form_state->getUserInput();
+    $cvPath = $this->insertFile($form_state->getValue('cv'));
 
-    $this->messenger()->addStatus($message);
+    $db->fields([
+      "full_name" => $values['full_name'],
+      "title_job" => $values['title_job'],
+      "job_id" => $values['job_id'],
+      "email" => $values['email'],
+      "phone" => $values['phone'],
+      "experiences" => $values['experiences'],
+      "resume" => $values['resume'],
+      "cv" => $cvPath
+    ])->execute();
+    $this->messenger()->addMessage('Your apply is added successfully !');
   }
 
-  /**
-   * @param string $title
-   * @param string $data
-   * @return Drupal\Core\StringTranslation\TranslatableMarkup
-   * @throws EntityStorageException
-   */
-  public function createNode($title, $data)
+  public function insertFile($file)
   {
-    $node = Node::create([
-      'type' => 'apply',
-      'langcode' => 'en',
-      'created' => REQUEST_TIME,
-      'changed' => REQUEST_TIME,
-// The user ID.
-      'uid' => 1,
-      'title' => $title,
-// An array with taxonomy terms.
-      'field_tags' => [1],
-      'body' => [
-        'summary' => '',
-        'value' => $data,
-        'format' => 'full_html',
-      ],
-    ]);
-    $node->save();
-    Drupal::service('path.alias_storage')->save("/node/" . $node->id(), "/applies/{$node->id()}", 'en');
-    return t("You apply is taken as <strong>  {$node->getTitle()} </strong> en path <a href='/applies/{$node->id()}'>Consult your apply</a>  ");
+    $newFile = Drupal\file\Entity\File::load($file[0]);
+    $newFile->setPermanent();
+    $newFile->save();
+    return $newFile->getFileUri();
   }
-
 
 }

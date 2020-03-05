@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.libraries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Plugin/Block/SearchJobBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Plugin/Block/SearchJobBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Form/SearchForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Form/SearchForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/node--job.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/node--job.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/offers-view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offers-view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/development.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/development.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583330037738</updated>
-      <workItem from="1583330039381" duration="20410000" />
+      <workItem from="1583330039381" duration="28276000" />
     </task>
     <servers />
   </component>
@@ -197,6 +189,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583331203003" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583418718634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1583418718634" />
     <state x="335" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583332007673">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -205,9 +201,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1583398751947" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583399904110">
+    <state x="482" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583418510943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583399904110" />
+    <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583422412426">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
   </component>
 </project>

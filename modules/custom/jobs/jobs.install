@@ -1,0 +1,65 @@
+<?php
+
+function jobs_schema()
+{
+  $schema['applies_table'] = [
+    'description' => 'The applies table for offers job.',
+    'fields' => array(
+      'nid' => [
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'full_name' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE
+      ),
+      'email' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => FALSE,
+      ),
+      'phone' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ),
+      'experiences' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+      'resume' => array(
+        'type' => 'text',
+        'size' => 'medium', // tiny | small | normal | medium | big
+        'not null' => FALSE,
+      ),
+      'cv' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ),
+      'title_job' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ),
+      'job_id' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+    ),
+    'primary key' => ['nid'],
+
+//    'foreign keys' => [
+//      'data_user' => [
+//        'table' => 'users',
+//        'columns' => [
+//          'uid' => 'uid',
+//        ],
+//      ],
+//    ],
+
+  ];
+  return $schema;
+}

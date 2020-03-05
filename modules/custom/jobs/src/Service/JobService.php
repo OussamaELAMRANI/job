@@ -67,6 +67,7 @@ class JobService
 
     return (!$isOfferNode) ? null :
       [
+        'id' => $id,
         'title' => $node->get('title')->value,
         'body' => $node->get('body')->value,
       ];

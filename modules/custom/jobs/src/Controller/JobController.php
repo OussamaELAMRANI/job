@@ -47,7 +47,7 @@ class JobController extends ControllerBase
     $build['head'] = [
       '#theme' => 'offer-show',
       '#offer' => ($offer) ?? ['error' => 'This offer doesnt exist !'],
-      '#form' => ($offer) ? $this->formBuilder()->getForm(ApplyForm::class) : NULL
+      '#form' => ($offer) ? $this->formBuilder()->getForm(ApplyForm::class, $offer) : NULL
     ];
 
 

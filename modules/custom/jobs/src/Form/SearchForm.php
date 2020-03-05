@@ -65,7 +65,7 @@ class SearchForm extends FormBase
       $jobs = [];
       $nodes = Node::loadMultiple($key);
       foreach ($nodes as $node) {
-        $jobs[] = "<a href='/node/{$node->id()}'>{$node->get('title')->value}</a>";
+        $jobs[] = "<a href='/offer/{$node->id()}'>{$node->get('title')->value}</a>";
       }
       $result = implode("<br/>", $jobs);
       $content =

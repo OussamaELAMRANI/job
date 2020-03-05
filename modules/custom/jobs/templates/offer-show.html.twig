@@ -1,6 +1,10 @@
 {% extends '@jobs/base.html.twig' %}
 
 {% block inner_content %}
+
+{#  {{ form.form_build_id }}#}
+{#  {{ form.form_id }}#}
+
   <div class="container">
     {% if offer.error %}
       <h2 class="danger-text">{{ offer.error }}</h2>
