@@ -40,7 +40,7 @@ class JobService
     $nodes = Node::loadMultiple($nids);
     foreach ($nodes as $node) {
       $offers[] = [
-        'link' => "/node/{$node->id()}",
+        'link' => "/offer/{$node->id()}",
         'title' => $node->getTitle(),
         'body' => substr($node->get('body')->value, 0, 600) . '...',
       ];
@@ -48,5 +48,27 @@ class JobService
 //  dump($offers);
 //  die();
     return $offers;
+  }
+
+  /**
+   * Show the Offer Node by Node_ID
+   *
+   * @param $id
+   * @param string $type
+   * @return array|null
+   */
+  public function getNodeOffer($id, $type = 'job_offer')
+  {
+    $node = Node::load($id);
+    if (!$node) return null;
+
+    $nodeType = $node->type->entity->label();
+    $isOfferNode = ($nodeType === $type);
+
+    return (!$isOfferNode) ? null :
+      [
+        'title' => $node->get('title')->value,
+        'body' => $node->get('body')->value,
+      ];
   }
 }

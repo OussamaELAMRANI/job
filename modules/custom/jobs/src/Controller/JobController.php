@@ -6,6 +6,8 @@ namespace Drupal\jobs\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Logger\LoggerChannelFactory;
+use Drupal\Core\Logger\LoggerChannelFactoryInterface;
+use Drupal\jobs\Form\ApplyForm;
 use Drupal\jobs\Service\JobService;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -20,7 +22,7 @@ class JobController extends ControllerBase
    */
   private $logger;
 
-  public function __construct(JobService $jobService, LoggerChannelFactory $logger)
+  public function __construct(JobService $jobService, LoggerChannelFactoryInterface $logger)
   {
     $this->jobService = $jobService;
     $this->logger = $logger;
@@ -32,6 +34,24 @@ class JobController extends ControllerBase
       '#theme' => 'offers-view',
       '#offers' => $this->jobService->getAllJobs(),
     ];
+  }
+
+  /**
+   *
+   * @param $id
+   * @return array
+   */
+  public function getOffer($id)
+  {
+    $offer = $this->jobService->getNodeOffer($id);
+    $build['head'] = [
+      '#theme' => 'offer-show',
+      '#offer' => ($offer) ?? ['error' => 'This offer doesnt exist !'],
+      '#form' => ($offer) ? $this->formBuilder()->getForm(ApplyForm::class) : NULL
+    ];
+
+
+    return $build;
   }
 
   /**

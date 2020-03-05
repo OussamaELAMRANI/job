@@ -5,3 +5,10 @@ offers.index:
   requirements:
     _permission: 'access content'
 
+offers.show:
+  path: /offer/{id}
+  defaults:
+    _controller: \Drupal\jobs\Controller\JobController::getOffer
+  requirements:
+    _permission: 'access content'
+

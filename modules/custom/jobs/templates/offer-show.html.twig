@@ -1,0 +1,22 @@
+{% extends '@jobs/base.html.twig' %}
+
+{% block inner_content %}
+  <div class="container">
+    {% if offer.error %}
+      <h2 class="danger-text">{{ offer.error }}</h2>
+    {% else %}
+      <div class="segment">
+        <h2 class="primary-text header">{{ offer.title }}</h2>
+        {{ offer.body | raw }}
+        <div class="footer">
+          <button class="btn btn-primary" id="toggle-job">Do you want apply ?</button>
+        </div>
+      </div>
+      <div id="job_form" class="segment hide bar">
+        <h2 class="header primary-text">Apply for a new job</h2>
+        {{ form }}
+      </div>
+    {% endif %}
+  </div>
+
+{% endblock %}

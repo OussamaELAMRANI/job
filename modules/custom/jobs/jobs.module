@@ -14,6 +14,10 @@ function jobs_theme()
     'variables' => ['offers' => NULL],
   );
 
+  $theme['offer-show'] = array(
+    'variables' => ['offer' => NULL, 'form' => NULL],
+  );
+
   return $theme;
 }
 

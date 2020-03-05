@@ -8,7 +8,10 @@ grid:
   css:
     theme:
       css/bootstrap-grid.css: {}
-#  js:
-#    includes/js/bootstrap.js: {}
-#  dependencies:
-#    - core/jquery
+
+job_js:
+  version: VERSION
+  js:
+    js/job.js: {}
+  dependencies:
+    - core/jquery

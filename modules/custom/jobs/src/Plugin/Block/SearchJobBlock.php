@@ -3,8 +3,10 @@
 
 namespace Drupal\jobs\Plugin\Block;
 
+use Drupal;
 use Drupal\Core\Block\Annotation\Block;
 use Drupal\Core\Block\BlockBase;
+use Drupal\jobs\Form\SearchForm;
 
 /**
  * Provides a user details block.
@@ -23,6 +25,6 @@ class SearchJobBlock extends BlockBase
    */
   public function build()
   {
-    return \Drupal::formBuilder()->getForm(\Drupal\jobs\Form\SearchForm::class);
+    return Drupal::formBuilder()->getForm(SearchForm::class);
   }
 }

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="" />
+    <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/js/job.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offer-show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/jobs.routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Controller/JobController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Form/ApplyForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Plugin/Block/SearchJobBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Plugin/Block/SearchJobBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/src/Service/JobService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/node--job.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/node--job.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/jobs/templates/offers-view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/jobs/templates/offers-view.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/development.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/development.services.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +49,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,6 +139,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YfOANykNN1jq5w82xygwNeIVVa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -124,6 +147,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/custom/jobs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -161,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583330037738</updated>
-      <workItem from="1583330039381" duration="8575000" />
+      <workItem from="1583330039381" duration="20410000" />
     </task>
     <servers />
   </component>
@@ -177,13 +201,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="335" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1583332007673" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1583339749658">
+    <state width="600" height="440" key="javadoc.popup" timestamp="1583398751947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1583339749658" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583340485078">
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1583398751947" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583399904110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583340485078" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583399904110" />
   </component>
 </project>

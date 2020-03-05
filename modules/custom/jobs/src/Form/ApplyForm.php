@@ -28,18 +28,39 @@ class ApplyForm extends FormBase
    */
   public function buildForm(array $form, FormStateInterface $form_state)
   {
-//    $form['#attached']['library'][] = 'core/drupal.dialog.ajax';
-
-    $form['job_title'] = array(
+    // Name
+    $form['full_name'] = array(
       '#type' => 'textfield',
-      '#title' => $this->t('Job title'),
-      '#description' => $this->t('Enter a job title to apply for'),
+      '#title' => $this->t('Full name'),
+      '#description' => $this->t('Enter your full name'),
     );
-    $form['job_description'] = array(
+    // Email
+    $form['email'] = [
+      '#type' => 'email',
+      '#title' => $this->t('Email'),
+      '#description' => 'Enter your email address',
+    ];
+    // Tel.
+    $form['phone'] = [
+      '#type' => 'tel',
+      '#title' => $this->t('Phone number'),
+      '#description' => $this->t('Enter your phone number, beginning with country code e-g +212 668 238 123'),
+    ];
+    // Number.
+    $form['experiences_number'] = [
+      '#type' => 'number',
+      '#title' => t('Years of professional experience '),
+    ];
+    $form['resume'] = array(
       '#type' => 'textarea',
       '#title' => $this->t('Resume'),
       '#description' => $this->t('Enter your experiences above'),
     );
+    $form['cv'] = array(
+      '#type' => 'file',
+      '#title' => $this->t('upload your CV'),
+    );
+
     $form['actions']['#type'] = 'actions';
     $form['actions']['submit'] = array(
       '#type' => 'submit',
@@ -91,4 +112,6 @@ class ApplyForm extends FormBase
     Drupal::service('path.alias_storage')->save("/node/" . $node->id(), "/applies/{$node->id()}", 'en');
     return t("You apply is taken as <strong>  {$node->getTitle()} </strong> en path <a href='/applies/{$node->id()}'>Consult your apply</a>  ");
   }
+
+
 }
