@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: { }
+name: 'social_network'
+type: pop
+description: 'Social network block'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
+third_party_settings: { }

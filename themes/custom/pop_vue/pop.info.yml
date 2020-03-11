@@ -1,0 +1,31 @@
+name: pop
+description: "Pop vue is a theme using React"
+package: POP THEME
+type: theme
+core: 8.x
+regions:
+  header_top: 'Header Top'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  headline: 'Headline'
+  breadcrumb: Breadcrumb
+  before_content: 'Before Content'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  after_content: 'After Content'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_bottom_left: 'Footer Bottom Left'
+  footer_bottom_right: 'Footer Bottom Right'
+
+libraries:
+  - pop/bootstrap
+  - pop/css_styles
+  - pop/googlefonts
+  - pop/font-awesome

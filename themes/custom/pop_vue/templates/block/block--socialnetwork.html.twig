@@ -1,0 +1,20 @@
+<div{{ attributes.addClass('social-network') }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    <ul class="social-icons">
+      <li>
+        <a class="button--icon" target="_blank" href="{{ facebook_url }}" title="">
+          <i class="fa fa-facebook"></i></a></li>
+      <li><a class="button--icon" target="_blank" href="{{ linkdin_url }}" title=""><i
+            class="fa fa-linkedin"></i></a></li>
+      <li><a class="button--icon" target="_blank" href="{{ twitter_url }}" title=""><i
+            class="fa fa-twitter"></i></a></li>
+      <li><a class="button--icon" target="_blank" href="{{ google_url }}" title=""><i
+            class="fa fa-google-plus"></i></a></li>
+    </ul>
+  {% endblock %}
+</div>

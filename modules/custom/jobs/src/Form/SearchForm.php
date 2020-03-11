@@ -13,17 +13,11 @@ use Drupal\node\Entity\Node;
 class SearchForm extends FormBase
 {
 
-  /**
-   * @inheritDoc
-   */
   public function getFormId()
   {
     return 'search_job';
   }
 
-  /**
-   * @inheritDoc
-   */
   public function buildForm(array $form, FormStateInterface $form_state)
   {
     $form['#attached']['library'][] = 'core/drupal.dialog.ajax';
@@ -52,7 +46,7 @@ class SearchForm extends FormBase
     $job_title = $form_state->getValue('job_title');
 
     $query = \Drupal::entityQuery('node')
-//      ->condition('type', 'job')
+      ->condition('type', 'job')
       ->condition('title', $job_title, 'CONTAINS');
     $entity = $query->execute();
 
