@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/components/top-header/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views-view-list--headlines.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/pop.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/pop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/page--front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/page--front.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +213,7 @@
       <workItem from="1583855056223" duration="763000" />
       <workItem from="1583866208179" duration="174000" />
       <workItem from="1583914979901" duration="10915000" />
-      <workItem from="1583933880681" duration="23587000" />
+      <workItem from="1583933880681" duration="23958000" />
     </task>
     <servers />
   </component>

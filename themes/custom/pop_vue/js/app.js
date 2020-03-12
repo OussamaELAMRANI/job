@@ -44,7 +44,7 @@
 
 
     //-- Flexslider
-    (function() {
+    (function () {
       $('.flexslider').flexslider({
         direction: "vertical",
         controlNav: false,
@@ -52,6 +52,23 @@
       });
     })();
 
+    //-- Parallax
+    (function () {
+      $(window).scroll(function (e) {
+        var bg = $('.intro');
+        var yPos = -($(window).scrollTop() / bg.data('speed'));
+        var coords = '50% ' + yPos + 'px';
+        bg.css({backgroundPosition: coords});
+      })
+    })();
 
+
+    //-- Scroll to
+    (function () {
+      $('#goto-section2').on('click', function (e) {
+        e.preventDefault()
+        $.scrollTo('#section2', 800, {offset: -220});
+      });
+    })();
   });
 })(jQuery)
