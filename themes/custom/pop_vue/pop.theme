@@ -27,3 +27,19 @@ function pop_preprocess_block(&$variables)
     foreach ($GLOBALS['social_links'] as $link)
       $variables[$link['name']] = theme_get_setting($link['name'], 'pop');
 }
+
+function pop_preprocess_views_view_list(&$variables)
+{
+
+}
+
+function pop_preprocess_views_view_field(&$variables)
+{
+//    dump($variables);
+}
+
+
+function pop_preprocess_image_formatter(&$variables)
+{
+//  dump($variables);
+}

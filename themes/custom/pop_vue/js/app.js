@@ -43,5 +43,15 @@
     })();
 
 
+    //-- Flexslider
+    (function() {
+      $('.flexslider').flexslider({
+        direction: "vertical",
+        controlNav: false,
+        directionNav: false
+      });
+    })();
+
+
   });
 })(jQuery)
