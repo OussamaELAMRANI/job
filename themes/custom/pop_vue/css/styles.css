@@ -344,23 +344,23 @@ hr:after {
   text-transform: uppercase;
 }
 
-#block-ourservices p.block-subtitle {
+#block-ourservices p.block-subtitle, p.block-subtitle {
   padding: 15px 0;
   font-size: 1.25em;
 }
 
 /* Our Features */
-#block-features {
+#block-features, #our-services {
   margin-top: 4em;
 }
 
-#block-features .service {
+#block-features .service, #our-services .service {
   padding-left: 60px;
   position: relative;
   margin-bottom: 20px;
 }
 
-#block-features .service-icon {
+#block-features .service-icon, #our-services .service-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -1292,7 +1292,7 @@ nav.tabs {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 }
 
-.view-header p.block-subtitle {
+.view-header p.block-subtitle, p.block-subtitle {
   font-family: "Roboto Slab", serif;
   font-style: italic;
   padding: 15px 0;

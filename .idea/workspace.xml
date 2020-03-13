@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--views-block--our-services-block.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--views-block--our-services-block.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--views-block--our-services-block.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +137,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,8 +147,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/menu" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/input" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/block" />
@@ -214,7 +215,7 @@
       <workItem from="1583855056223" duration="763000" />
       <workItem from="1583866208179" duration="174000" />
       <workItem from="1583914979901" duration="10915000" />
-      <workItem from="1583933880681" duration="36024000" />
+      <workItem from="1583933880681" duration="39574000" />
     </task>
     <servers />
   </component>
@@ -264,9 +265,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1583418718634" />
-    <state x="1887" y="-93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583925790697">
-      <screen x="1440" y="-157" width="1920" height="1001" />
+    <state x="1887" y="-111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584109572847">
+      <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
+    <state x="1887" y="-111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584109572847" />
     <state x="335" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1583425560963" />
     <state x="1887" y="-93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/1440.-157.1920.1001@1440.-157.1920.1001" timestamp="1583925790697" />
     <state x="1887" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583923139305" />
@@ -298,10 +300,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
-    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup" timestamp="1584096504655">
+    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup" timestamp="1584113919823">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584096504655" />
+    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584113919823" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
     <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584041745047" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584030501848" />
