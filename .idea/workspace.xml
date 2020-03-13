@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--pagetitle.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/node--page--full.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/job.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/components/top-header/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/components/top-header/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/html.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/html.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/page--front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page--front.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +152,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,13 +162,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/menu" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/input" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/block" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/includes" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/css" />
@@ -213,7 +230,7 @@
       <workItem from="1583855056223" duration="763000" />
       <workItem from="1583866208179" duration="174000" />
       <workItem from="1583914979901" duration="10915000" />
-      <workItem from="1583933880681" duration="23958000" />
+      <workItem from="1583933880681" duration="32491000" />
     </task>
     <servers />
   </component>
@@ -285,6 +302,10 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1540" y="-57" width="1274" height="857" key="dock-window-4/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584026382861" />
+    <state x="2071" y="106" width="657" height="508" key="find.popup" timestamp="1584089374488">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2071" y="106" width="657" height="508" key="find.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584089374488" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1583398751947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -293,12 +314,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
-    <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup" timestamp="1584030501848">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup" timestamp="1584091606083">
+      <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1583945103297" />
+    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584091606083" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584041745047" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584030501848" />
+    <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.23.1440.821/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584087131411" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583923076921" />
   </component>
 </project>
