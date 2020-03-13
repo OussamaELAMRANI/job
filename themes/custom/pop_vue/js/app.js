@@ -45,11 +45,13 @@
 
     //-- Flexslider
     (function () {
-      $('.flexslider').flexslider({
-        direction: "vertical",
-        controlNav: false,
-        directionNav: false
-      });
+      if (typeof $.fn.flexslider === 'function') {
+        $('.flexslider').flexslider({
+          direction: "vertical",
+          controlNav: false,
+          directionNav: false
+        });
+      }
     })();
 
     //-- Parallax
