@@ -46,6 +46,13 @@
  */
 #}
 
+{% if page.sidebar_second and page.sidebar_first %}
+  {% set col_class = 'col-md-6' %}
+{% elseif page.sidebar_second or page.sidebar_first %}
+  {% set col_class = 'col-md-9' %}
+{% else %}
+  {% set col_class = 'col-md-12' %}
+{% endif %}
 
 <header class="header" role="banner">
   <div class="header-top">
@@ -66,15 +73,29 @@
 
   <div id="content" class="content full">
     <div class="container">
+
       <div class="row">
-        <div class="col-md-12">
+
+        {% if page.sidebar_first %}
+          <aside class="layout-sidebar-first" role="complementary">
+            <div class="col-md-3">
+              {{ page.sidebar_first }}
+            </div>
+          </aside>
+        {% endif %}
+
+        <div class="{{ col_class }}">
           {{ page.content }}
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          {{ page.sidebar_second }}
-        </div>
+
+        {% if page.sidebar_second %}
+          <aside class="layout-sidebar-second" role="complementary">
+            <div class="col-md-3">
+              {{ page.sidebar_second }}
+            </div>
+          </aside>
+        {% endif %}
+
       </div>
     </div>
   </div>
