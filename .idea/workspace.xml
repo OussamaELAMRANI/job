@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/field/field--field-tags.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/field/field--node--field-image.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--listing.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.libraries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +234,7 @@
       <workItem from="1583933880681" duration="40192000" />
       <workItem from="1584346594931" duration="1343000" />
       <workItem from="1584347957085" duration="14165000" />
-      <workItem from="1584543243835" duration="5043000" />
+      <workItem from="1584543243835" duration="5959000" />
     </task>
     <servers />
   </component>
@@ -349,12 +343,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584556535111">
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584560546634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584368708259" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584556535111" />
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584560546634" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584439130357" />
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.23.1440.821/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584347503535" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583923076921" />
