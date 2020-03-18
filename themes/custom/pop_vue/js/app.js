@@ -4,19 +4,20 @@
     //-- Sticky Header
     (function () {
 
-      var mainnav = $('.header');
+      let mainnav = $('.header');
 
       if (mainnav.length) {
-        var elmHeight = $('.header-top').outerHeight(true);
+        let elmHeight = $('.header-top').outerHeight(true);
         $(window).scroll(function () {
 
-          var scrolltop = $(window).scrollTop();
+          let scrolltop = $(window).scrollTop();
           if (scrolltop > elmHeight) {
             if (!mainnav.hasClass('sticky')) {
               mainnav.addClass('sticky');
             }
 
-          } else {
+          }
+          else {
             mainnav.removeClass('sticky');
           }
         })
@@ -56,12 +57,12 @@
 
     //-- Parallax
     (function () {
-      $(window).scroll(function (e) {
-        var bg = $('.intro');
-        var yPos = -($(window).scrollTop() / bg.data('speed'));
-        var coords = '50% ' + yPos + 'px';
+      $(window).scroll(function () {
+        let bg = $('.intro');
+        let yPos = -($(window).scrollTop() / bg.data('speed'));
+        let coords = '50% ' + yPos + 'px';
         bg.css({backgroundPosition: coords});
-      })
+      });
     })();
 
 
@@ -73,4 +74,17 @@
       });
     })();
   });
-})(jQuery)
+
+  //-- Owl Carousel
+  (function () {
+      if (typeof $.fn.owlCarousel === 'function') {
+        $('.owl-carousel').owlCarousel({
+          slideSpeed: 300,
+          paginationSpeed: 400,
+          singleItem: true
+        });
+      }
+    }
+  )();
+
+})(jQuery);

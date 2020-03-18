@@ -2,44 +2,65 @@
 
 use Drupal\Core\Form\FormStateInterface;
 
-$GLOBALS['social_links'] = array(
+$GLOBALS['social_links'] = [
   ['name' => 'facebook_url', 'title' => 'Facebook Link'],
   ['name' => 'twitter_url', 'title' => 'Twitter Link'],
   ['name' => 'linkdin_url', 'title' => 'Linkdin Link'],
   ['name' => 'google_url', 'title' => 'Google Plus Link'],
-);
+];
 
-function pop_form_system_theme_settings_alter(&$form, FormStateInterface $form_state)
-{
-  foreach ($GLOBALS['social_links'] as $link)
-    $form['pop_settings']['social_icon'][$link['name']] = array(
+function pop_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+  foreach ($GLOBALS['social_links'] as $link) {
+    $form['pop_settings']['social_icon'][$link['name']] = [
       '#type' => 'textfield',
       '#title' => t($link['title']),
       '#default_value' => theme_get_setting($link['name'], 'pop'),
-    );
+    ];
+  }
 
 }
 
-function pop_preprocess_block(&$variables)
-{
+function pop_preprocess_block(&$variables) {
 
-  if ($variables['attributes']['id'] == 'block-socialnetwork')
-    foreach ($GLOBALS['social_links'] as $link)
+  if ($variables['attributes']['id'] == 'block-socialnetwork') {
+    foreach ($GLOBALS['social_links'] as $link) {
       $variables[$link['name']] = theme_get_setting($link['name'], 'pop');
+    }
+  }
 }
 
-function pop_preprocess_views_view_list(&$variables)
-{
+function pop_preprocess_views_view_list(&$variables) {
 
 }
 
-function pop_preprocess_views_view_field(&$variables)
-{
-//    dump($variables);
+function pop_preprocess_views_view_field(&$variables) {
+  //    dump($variables);
 }
 
 
-function pop_preprocess_image_formatter(&$variables)
-{
-//  dump($variables);
+function pop_preprocess_image_formatter(&$variables) {
+  //  dump($variables);
+}
+
+/**
+ * Implements hook_preprocess().
+ *
+ * @param $variables
+ */
+function pop_preprocess_node(&$variables) {
+  $node = $variables ['elements']['#node'];
+  $id = $node->id();
+
+  // Create comment count variable for template
+  $count = _pop_comment_count($id);
+  $variables['comment_count'] = _pop_plural($count);
+}
+
+function _pop_comment_count($id) {
+  $count = db_query("SELECT comment_count FROM comment_entity_statistics WHERE entity_id = :id", [':id' => $id])->fetchField();
+  return empty($count) ? 0 : $count;
+}
+
+function _pop_plural($count) {
+  return sprintf("%d comment%s", $count, ($count > 1) ? 's' : '');
 }

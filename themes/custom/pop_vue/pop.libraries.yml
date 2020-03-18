@@ -48,3 +48,14 @@ scroll-to:
     includes/jquery-scrollTo/jquery.scrollTo.min.js: {}
   dependencies:
     - core/jquery
+
+owl-carousel:
+  version: 1.3.3
+  css:
+    theme:
+      includes/owl-carousel/owl.carousel.css: {}
+      includes/owl-carousel/owl.theme.css: {}
+  js:
+    includes/owl-carousel/owl.carousel.min.js: {}
+  dependencies:
+    - core/jquery

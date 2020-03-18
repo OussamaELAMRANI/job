@@ -1,0 +1,13 @@
+name: Styled Google Map
+description: Will provide a Geofield field formatter for adding a Styled Google Map
+type: module
+# core: 8.x
+package: Field formatters
+dependencies:
+  - geofield:geofield
+
+# Information added by Drupal.org packaging script on 2018-10-03
+version: '8.x-1.3'
+core: '8.x'
+project: 'styled_google_map'
+datestamp: 1538579283
