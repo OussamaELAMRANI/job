@@ -1,3 +1,5 @@
+window.$ = window.jQuery = jQuery;
+
 (function ($) {
   $(document).ready(function () {
 

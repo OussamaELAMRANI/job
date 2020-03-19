@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--teaser.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views_view_unformatted--recent_posts.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--listing.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--listing.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +237,7 @@
       <workItem from="1583933880681" duration="40192000" />
       <workItem from="1584346594931" duration="1343000" />
       <workItem from="1584347957085" duration="14165000" />
-      <workItem from="1584543243835" duration="11689000" />
+      <workItem from="1584543243835" duration="14245000" />
     </task>
     <servers />
   </component>
@@ -331,11 +333,11 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1540" y="-57" width="1274" height="857" key="dock-window-4/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584026382861" />
-    <state x="552" y="278" width="703" height="508" key="find.popup" timestamp="1584453778599">
+    <state x="552" y="278" width="703" height="508" key="find.popup" timestamp="1584618594911">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="2071" y="106" width="657" height="508" key="find.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584089374488" />
-    <state x="552" y="278" width="703" height="508" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584453778599" />
+    <state x="552" y="278" width="703" height="508" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584618594911" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1583398751947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

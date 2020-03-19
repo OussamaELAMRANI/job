@@ -27,7 +27,7 @@ regions:
 
 libraries:
   - pop/bootstrap
+  - pop/owl-carousel
   - pop/css_styles
   - pop/googlefonts
   - pop/font-awesome
-  - pop/owl-carousel
