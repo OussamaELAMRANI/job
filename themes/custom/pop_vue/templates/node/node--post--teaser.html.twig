@@ -1,0 +1,12 @@
+<div class="post-image">
+    <a href="{{ url }}">
+      {{ content.field_image }}
+    </a>
+</div>
+<div class="post-info">
+  <a href="{{ url }}" class="tabbed-title">{{ label }}</a>
+  <div class="post-meta">
+    {{ node.createdtime|date('M d, Y') }}
+  </div>
+</div>
+{{ content|without('field_image') }}

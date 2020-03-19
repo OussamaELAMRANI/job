@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--views-block--categories-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views-view-unformatted--categories.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--teaser.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views_view_unformatted--recent_posts.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views-view-fields.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/views/views-view-fields--our_services.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/field" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,18 +163,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/field" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/node" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/menu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/includes" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/field" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/node" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/menu" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -237,7 +235,7 @@
       <workItem from="1583933880681" duration="40192000" />
       <workItem from="1584346594931" duration="1343000" />
       <workItem from="1584347957085" duration="14165000" />
-      <workItem from="1584543243835" duration="7742000" />
+      <workItem from="1584543243835" duration="11689000" />
     </task>
     <servers />
   </component>
@@ -346,12 +344,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584561886714">
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584575563499">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584368708259" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584561886714" />
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584575563499" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584439130357" />
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.23.1440.821/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584347503535" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583923076921" />
