@@ -59,3 +59,8 @@ owl-carousel:
     includes/owl-carousel/owl.carousel.min.js: {}
   dependencies:
     - core/jquery
+
+add-this:
+  version: VERSION
+  js:
+    ////s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e7886ddcfa0265d: {type: external, asynch: asynch }

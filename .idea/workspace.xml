@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8dfa47-8f9b-4c52-921a-99a022d58730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/components/tags.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/block/block--contactheader.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/field/field--user-picture.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--full.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/css/pop.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/css/pop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout/page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--listing.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/templates/node/node--post--listing.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/pop_vue/pop.theme" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,23 +160,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/pop_vue/templates/field" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/field" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/user" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/input" />
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/views" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/node" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
-      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/menu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/comment" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/includes" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue/templates/layout" />
       <recent name="$PROJECT_DIR$/themes/custom/pop_vue" />
@@ -237,12 +242,21 @@
       <workItem from="1583933880681" duration="40192000" />
       <workItem from="1584346594931" duration="1343000" />
       <workItem from="1584347957085" duration="14165000" />
-      <workItem from="1584543243835" duration="14245000" />
+      <workItem from="1584543243835" duration="24526000" />
+      <workItem from="1584729982163" duration="1397000" />
+      <workItem from="1584910337288" duration="155000" />
+      <workItem from="1584910585066" duration="12000" />
+      <workItem from="1584910632997" duration="360000" />
+      <workItem from="1584957304727" duration="3853000" />
+      <workItem from="1584971347783" duration="490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="IlluminatedCloud" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -262,6 +276,14 @@
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
     <state x="2000" y="24" key="#Drupal/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584347107885" />
+    <state x="440" y="190" key="#SQL_Dialects" timestamp="1584652800401">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#SQL_Dialects/0.0.1680.1050@0.0.1680.1050" timestamp="1584652800401" />
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584652783047">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584652783047" />
     <state x="458" y="211" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583483010564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -294,22 +316,24 @@
     <state width="1878" height="310" key="GridCell.Tab.0.right/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583917667071" />
     <state width="1878" height="310" key="GridCell.Tab.0.right/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583920865781" />
     <state width="1878" height="310" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583933858523" />
-    <state x="1735" y="-42" width="1236" height="722" key="SettingsEditor" timestamp="1584445294809">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state x="464" y="126" width="1082" height="722" key="SettingsEditor" timestamp="1584957457316">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1735" y="-63" width="1236" height="722" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584348355336" />
     <state x="221" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583331203003" />
+    <state x="464" y="126" width="1082" height="722" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1584957457316" />
     <state x="221" y="112" key="SettingsEditor/0.23.1440.821/1440.-157.1920.1057@0.23.1440.821" timestamp="1583505935201" />
     <state x="1735" y="-42" width="1236" height="722" key="SettingsEditor/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584445294809" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1583418718634">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1583418718634" />
-    <state x="557" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1584543248172">
+    <state x="557" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1584971399503">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="2076" y="192" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584347976859" />
-    <state x="557" y="362" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584543248172" />
+    <state x="557" y="362" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584971399503" />
+    <state x="557" y="362" key="com.intellij.ide.util.TipDialog/0.23.1680.971@0.23.1680.971" timestamp="1584729983617" />
     <state x="1887" y="-111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584109572847">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
@@ -333,11 +357,11 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1540" y="-57" width="1274" height="857" key="dock-window-4/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584026382861" />
-    <state x="552" y="278" width="703" height="508" key="find.popup" timestamp="1584618594911">
+    <state x="552" y="278" width="703" height="508" key="find.popup" timestamp="1584644141416">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="2071" y="106" width="657" height="508" key="find.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584089374488" />
-    <state x="552" y="278" width="703" height="508" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584618594911" />
+    <state x="552" y="278" width="703" height="508" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584644141416" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1583398751947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -346,12 +370,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583418510943" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584575563499">
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup" timestamp="1584910825273">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584368708259" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583422412426" />
-    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584575563499" />
+    <state x="449" y="228" width="783" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584910825273" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.821/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1584439130357" />
     <state x="1953" y="55" width="894" height="812" key="search.everywhere.popup/0.23.1440.821/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1584347503535" />
     <state x="1953" y="73" width="894" height="794" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1583923076921" />

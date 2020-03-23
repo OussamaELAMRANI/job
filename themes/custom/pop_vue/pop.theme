@@ -1,6 +1,7 @@
 <?php
 
 use Drupal\Core\Form\FormStateInterface;
+use \Drupal\user\Entity\User;
 
 $GLOBALS['social_links'] = [
   ['name' => 'facebook_url', 'title' => 'Facebook Link'],
@@ -57,10 +58,28 @@ function pop_preprocess_node(&$variables) {
 }
 
 function _pop_comment_count($id) {
-  $count = db_query("SELECT comment_count FROM comment_entity_statistics WHERE entity_id = :id", [':id' => $id])->fetchField();
+  $database = \Drupal::database();
+  $count = $database->query("SELECT comment_count FROM comment_entity_statistics WHERE entity_id = :id",
+    [':id' => $id])
+    ->fetchField();
   return empty($count) ? 0 : $count;
 }
 
 function _pop_plural($count) {
   return sprintf("%d comment%s", $count, ($count > 1) ? 's' : '');
 }
+
+
+function pop_preprocess_comment__comment__post(&$variables) {
+
+}
+
+function pop_preprocess_field(&$variables) {
+
+  $user = User::load(\Drupal::currentUser()->id());
+  // $user->get('user_picture')->entity->url()
+  $variables['img_url'] = "/boom.jpg";
+
+}
+
+

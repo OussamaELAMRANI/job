@@ -1,0 +1,14 @@
+span i {
+  margin: 6px;
+}
+
+.post-meta-tag ul {
+  display: inline-block;
+  padding: 0;
+}
+li.field-item {
+  display: inline-block;
+}
+.post-meta .post-meta-tag ul li:not(:last-child):after {
+  content: ',';
+}

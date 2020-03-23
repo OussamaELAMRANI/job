@@ -28,6 +28,6 @@ regions:
 libraries:
   - pop/bootstrap
   - pop/owl-carousel
-  - pop/css_styles
   - pop/googlefonts
   - pop/font-awesome
+  - pop/css_styles
