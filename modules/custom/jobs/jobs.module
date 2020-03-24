@@ -24,21 +24,3 @@ function jobs_theme()
 
   return $theme;
 }
-
-function getLastOffers($length = 3)
-{
-  $offers = [];
-  $query = Drupal::entityQuery('node')
-    ->condition('type', 'job')
-    ->sort('created', 'DESC')
-    ->pager($length);
-  $nids = array_values($query->execute());
-  $nodes = Node::loadMultiple($nids);
-
-  foreach ($nodes as $node) {
-    $offers[] = "<a href='/node/{$node->id()}'>{$node->getTitle()}</a>";
-  }
-//  dump($offers);
-//  die();
-  return implode("<br/>", $offers);
-}

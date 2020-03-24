@@ -77,8 +77,7 @@ function pop_preprocess_comment__comment__post(&$variables) {
 function pop_preprocess_field(&$variables) {
 
   $user = User::load(\Drupal::currentUser()->id());
-  // $user->get('user_picture')->entity->url()
-  $variables['img_url'] = "/boom.jpg";
+  $variables['img_url'] = $user->get('user_picture')->entity->url();
 
 }
 

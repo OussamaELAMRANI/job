@@ -2,15 +2,11 @@
 
 
 {% block inner_content %}
-  <div class="container">
-    <h2>Job Offers </h2>
+  <h2>Job Offers </h2>
 
-    <div class="row">
-      {% for offer in offers %}
-        {% include '@jobs/layouts/offer.html.twig' with offer %}
-      {% endfor %}
-    </div>
-  </div>
+  {% for offer in offers %}
+    {% include '@jobs/layouts/offer.html.twig' with offer %}
+  {% endfor %}
 {% endblock %}
 
 

@@ -7,35 +7,31 @@ namespace Drupal\jobs\Service;
 use Drupal;
 use Drupal\Core\Logger\LoggerChannelFactory;
 use Drupal\node\Entity\Node;
-use Drupal\user\Entity\User;
-use Psr\Log\LogLevel;
 
-class JobService
-{
+class JobService {
+
   /**
    * @var LoggerChannelFactory
    */
   private $logger;
+
   /**
    * @var bool
    */
   private $useLogger;
 
-  public function __construct(LoggerChannelFactory $logger, $useLogger = false)
-  {
+  public function __construct(LoggerChannelFactory $logger, $useLogger = FALSE) {
     $this->logger = $logger;
     $this->useLogger = $useLogger;
   }
 
 
-  public function getAllJobs($length = 10)
-  {
+  public function getAllJobs($length = 10) {
     $offers = [];
     $query = Drupal::entityQuery('node')
       ->condition('type', 'job')
       ->sort('created', 'DESC')
       ->pager($length);
-//    dump($query->execute());
     $nids = array_values($query->execute());
     $nodes = Node::loadMultiple($nids);
     foreach ($nodes as $node) {
@@ -45,9 +41,27 @@ class JobService
         'body' => substr($node->get('body')->value, 0, 600) . '...',
       ];
     }
-//  dump($offers);
-//  die();
     return $offers;
+  }
+
+
+  function getLastOffers($length = 3) {
+    $offers = [];
+    $query = Drupal::entityQuery('node')
+      ->condition('type', 'job')
+      ->sort('created', 'DESC')
+      ->pager($length);
+    $nids = array_values($query->execute());
+    $nodes = Node::loadMultiple($nids);
+
+    foreach ($nodes as $node) {
+      $url = Drupal::service('path.alias_manager')
+        ->getAliasByPath("/node/{$node->id()}");
+
+      $offers[] = "<a href='{$url}'>{$node->getTitle()}</a>";
+    }
+
+    return implode("<br/>", $offers);
   }
 
   /**
@@ -55,17 +69,19 @@ class JobService
    *
    * @param $id
    * @param string $type
+   *
    * @return array|null
    */
-  public function getNodeOffer($id, $type = 'job_offer')
-  {
+  public function getNodeOffer($id, $type = 'job_offer') {
     $node = Node::load($id);
-    if (!$node) return null;
+    if (!$node) {
+      return NULL;
+    }
 
     $nodeType = $node->type->entity->label();
     $isOfferNode = ($nodeType === $type);
 
-    return (!$isOfferNode) ? null :
+    return (!$isOfferNode) ? NULL :
       [
         'id' => $id,
         'title' => $node->get('title')->value,
@@ -73,8 +89,13 @@ class JobService
       ];
   }
 
-  public function getApplies($length)
-  {
+  /**
+   *
+   * @param int $length
+   *
+   * @return mixed
+   */
+  public function getApplies(int $length) {
     $query = Drupal::database()->select('applies_table', 'a');
     $query->addField('a', 'nid');
     $query->addField('a', 'full_name');
@@ -87,7 +108,7 @@ class JobService
     $query->addField('a', 'job_id');
     $query->orderBy('nid', 'DESC');
 
-//    $query->condition('n.type', 'blablabla');
     return $query->execute()->fetchAll(\PDO::FETCH_ASSOC);
   }
+
 }

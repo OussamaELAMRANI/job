@@ -50,8 +50,6 @@ class SearchForm extends FormBase
       ->condition('title', $job_title, 'CONTAINS');
     $entity = $query->execute();
 
-//    dump($entity);
-//    die();
     $key = array_values($entity);
     $id = !empty($key[0]) ? $key[0] : NULL;
 
